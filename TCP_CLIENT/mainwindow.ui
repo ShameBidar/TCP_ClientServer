@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLineEdit" name="edit_message">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>100</y>
+      <width>340</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_message">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>57</y>
+      <width>131</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>your message:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_request">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>160</y>
+      <width>95</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>request</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_response">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>230</y>
+      <width>340</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid rgb(180,180, 180);</string>
+    </property>
+    <property name="text">
+     <string>response:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_hangup">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>160</y>
+      <width>95</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>hangup</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
